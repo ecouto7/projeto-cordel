@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 35px;
+    
+}
+
+header p {
+    color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section > pre.normal {
+    color: black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+section > pre.img {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+section > pre#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section > pre#img02 {
+    background-image: url(../img/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    text-shadow: 2px 2px 0px black;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
